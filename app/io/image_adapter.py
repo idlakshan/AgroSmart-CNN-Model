@@ -1,7 +1,7 @@
 import os, cv2, uuid
 
 class Cv2ImageAdapter:
-    """Adapter: wraps OpenCV I/O & preprocessing."""
+    
     @staticmethod
     def save_file(file_storage, folder: str) -> str:
         os.makedirs(folder, exist_ok=True)

@@ -6,7 +6,7 @@ def _cfg(cfg, key):
     return getattr(cfg, key, cfg.get(key))
 
 class ModelRegistry:
-    """Singleton: loads weights once, exposes model + grad_model."""
+
     _instance = None
 
     def __init__(self, cfg):
