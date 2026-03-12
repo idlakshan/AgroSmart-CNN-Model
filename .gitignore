@@ -31,7 +31,6 @@ instance/
 
 
 uploads/               
-model/soil_model_weights_only.weights.h5  
 *.h5
 *.hdf5
 
